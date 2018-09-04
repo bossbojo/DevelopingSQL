@@ -1,4 +1,3 @@
-
 CREATE FUNCTION [dbo].[f_GetWhenConditionOfFilter](@table_name NVARCHAR(50),@search_text NVARCHAR(MAX),@key_where NVARCHAR(MAX) = '')
 RETURNS NVARCHAR(MAX)
 AS
@@ -42,4 +41,3 @@ BEGIN
 	END
 	RETURN @SQL
 END
-

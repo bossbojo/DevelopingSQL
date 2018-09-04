@@ -1,4 +1,3 @@
-
 CREATE PROCEDURE [dbo].[pagination]
 	 @table_name NVARCHAR(50) = '',
 	 @search_text NVARCHAR(MAX) ='',
